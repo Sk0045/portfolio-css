@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container{
+    width: 30%;
+    background-color: aliceblue;
+    color: black;
+    
+}
+
+.container .logo{
+    width:190px ;
+    margin-left: 90px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.container .inputs{
+    display: grid;
+    justify-content: center;
+}
+.container .inputs label{
+    font-size: larger;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.container .inputs input{
+    width: 350px;
+    height: 25px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+button{
+    width: 370px; ;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(96, 96, 248);
+    margin-left: 15px;
+    font-size: large;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.container .google {
+display: flex;
+justify-content: center;
+background-color: rgb(252, 253, 253);
+font-size: larger;
+align-items: center;
+border: 2px solid black;
+padding-right: 20px;
+border-radius: 20px;
+width: 340px;
+height: 30px;
+margin-left: 19px;
+margin-bottom: 15px;
+}
+
+.container .google img{
+    width: 30px;
+    padding-top:5px;
+    padding-right: 5px;
+    border-radius: 20px 20px;  
+}
+.container .facebook {
+display: flex;
+justify-content: center;
+background-color: rgb(252, 253, 253);
+font-size: larger;
+border: 2px solid black;
+align-items: center;
+border-radius: 20px;
+width: 359px;
+margin-left: 19px;
+height: 30px;
+margin-bottom: 20px;
+
+}
+
+.container .facebook img{
+    width: 30px;
+    padding-top:5px;
+    padding-right: 5px;
+    border-radius: 20px 20px;  
+}
+.container a{
+    color: blue;
+    font-size: larger;
+    
+}
+.container p{
+    font-size: larger;
+    margin-left: 22px;
+}
